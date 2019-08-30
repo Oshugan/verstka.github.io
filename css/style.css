@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+h1,h2 {
+    font-size: 50px;
+}
+
+h2 {
+    color: #17528e;
+    font-weight: 400;
+    margin: 0 0 48px 0;
+}
+
+.main-wrap {
+    max-width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-wrap {
+    padding: 112px 0 25px;
+}
+
+.wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.header {
+    background: url(../img/head-bd.png);
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header h1 {
+    max-width: 733px;
+    margin: 0 auto 20px;
+    letter-spacing: 1px;
+}
+
+.header img {
+    margin: 0 0 36px 0;
+}
+
+.header p {
+    max-width: 766px;
+    margin: 0 auto 72px;
+    line-height: 2.1;
+    letter-spacing: 0.4px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #17528e;
+    background: #fff;
+    border-radius: 30px;
+    padding: 14px 0 16px 0;
+    text-decoration: none;
+    display: block;
+    max-width: 202px;
+    margin: 0 auto;
+    border: solid 2px #fff;
+}
+
+a.btn:hover, a.btn-footer:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.btn-arrow {
+    background: url(../img/download-arrow.svg);
+    display: block;
+    width: 33px;
+    height: 32px;
+    background-size: contain;
+    margin: 88px auto 0;
+}
+
+.page {
+    padding: 107px 0 113px 0;
+}
+
+.page-about p {
+    line-height: 35px;
+    max-width: 1099px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #5a5a5a;
+    font-weight: 400;
+}
+
+.page-expert {
+    background: #f7fafe;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 97px 0 25px 0;
+}
+
+.box-item {
+    display: block;
+}
+
+.box-item h3 {
+    color: #17528e;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 24px 0;
+    list-style-image: u
+}
+
+.box-item p {
+    max-width: 744px;
+    line-height: 2;
+}
+
+.box-icon {
+    width: 140px;
+    height: 140px;
+    border: solid 2px #17528e;
+    border-radius: 100%;
+    margin: 0 auto 50px;
+    position: relative;
+}
+
+.box-icon::after {
+    content: '';
+    background: url(../img/sprite.png);
+    position: absolute;
+}
+
+.box-icon-app::after {
+    width: 50px;
+    height: 76px;
+    background-position: -3px 0px;
+    top: calc(50% - 33px);
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+
+.box-icon-app:hover::after {
+    background-position: -3px -74px;
+}
+
+.box-icon-design::after {
+    width: 72px;
+    height: 71px;
+    background-position: -58px 0px;
+    top: calc(50% - 33px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-icon-design:hover::after {
+    background-position: -58px -74px;
+}
+
+.box-icon-develop::after {
+    width: 61px;
+    height: 75px;
+    background-position: -135px 0px;
+    top: calc(50% - 33px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-icon-develop:hover::after {
+    background-position: -136px -74px;
+}
+
+.box-icon:hover {
+    background: #17528e;
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.thumb img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    object-fit: cover;
+    -webkit-transform: translate (50%, 50%);
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 270px;
+}
+
+.page-footer {
+    background: url(../img/footer-bg.png);
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    padding: 87px 0;
+}
+
+.page-footer h2 {
+    color: #fff;
+}
+
+.btn-footer {
+    font-size: 20px;
+    font-weight: 700;
+    color: #17528e;
+    background: #fff;
+    border-radius: 30px;
+    padding: 14px 60px 15px 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    max-width: 202px;
+    margin: 0 auto;
+    border: solid 2px #fff;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-flex h2 {
+    margin: 0 0 10px 0;
+}
+
+.footer-flex h2, .footer-flex div {
+    align-self: center;
+}
